@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="StepDefinition.Refactoring">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="vehicle_insurance_start_and_end_date_displayed"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- StepDefinition.Refactoring -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
